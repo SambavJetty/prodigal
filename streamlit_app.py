@@ -17,7 +17,7 @@ from src.metrics import compute_overtalk_and_silence
 from src.visualizations import metrics_chart
 from src.utils import extract_call_id_from_name
 
-st.set_page_config(page_title="Debt Collection Compliance Checker", page_icon="✅", layout="centered")
+st.set_page_config(page_title="Debt Collection Compliance Checker", page_icon="", layout="centered")
 
 st.title("Debt Collection Compliance Checker")
 st.caption("Analyze calls for profanity, privacy/compliance, and call quality metrics (overtalk & silence).")
